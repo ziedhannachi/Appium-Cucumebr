@@ -1,0 +1,98 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 20834777375,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setUpAppium()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Seloger Mobile - Accueil",
+        "description": "",
+        "id": "seloger-mobile---accueil;seloger-mobile---accueil",
+        "after": [
+          {
+            "result": {
+              "duration": 1708980074,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9851445335,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Ouvrir l application",
+            "match": {
+              "location": "AccueilStepDefinition.ouvrir_l_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 187997230,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verifier la page Accueil",
+            "match": {
+              "location": "AccueilStepDefinition.verifier_la_page_Accueil()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5311714782,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Cliquer sur le bouton Acheter",
+            "match": {
+              "location": "AccueilStepDefinition.cliquer_sur_le_bouton_Acheter()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 166265,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "la page s affiche",
+            "match": {
+              "location": "AccueilStepDefinition.la_page_s_affiche()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@Connexion"
+          }
+        ]
+      }
+    ],
+    "name": "Seloger Mobile - Accueil",
+    "description": "\r\nEn tant que Utilisateur \r\n\tje souhaite ouvrir l application Seloger mobile",
+    "id": "seloger-mobile---accueil",
+    "keyword": "Feature",
+    "uri": "src/test/features/Accueil.feature"
+  }
+]
